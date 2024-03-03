@@ -16,7 +16,7 @@ protocol Theme {
 }
 
 struct LightTheme: Theme {
-    var textColor: Color = .cyan
+    var textColor: Color = .white
     
     var enabledButtonColor: Color = .gray
     
@@ -26,7 +26,7 @@ struct LightTheme: Theme {
 }
 
 struct DarkTheme: Theme {
-    var textColor: Color = .red
+    var textColor: Color = .white
     
     var enabledButtonColor: Color = .blue
     
