@@ -12,6 +12,8 @@ struct LincentaAnPatruApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(RaspberryClient())
+                .environmentObject(ThemeProvider())
         }
     }
 }

@@ -14,6 +14,17 @@
 		911B676B2B80CC9000BECAA7 /* LincentaAnPatruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B676A2B80CC9000BECAA7 /* LincentaAnPatruTests.swift */; };
 		911B67752B80CC9000BECAA7 /* LincentaAnPatruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67742B80CC9000BECAA7 /* LincentaAnPatruUITests.swift */; };
 		911B67772B80CC9000BECAA7 /* LincentaAnPatruUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67762B80CC9000BECAA7 /* LincentaAnPatruUITestsLaunchTests.swift */; };
+		911B67852B80CD6D00BECAA7 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67842B80CD6D00BECAA7 /* MainMenu.swift */; };
+		911B67872B80CDC700BECAA7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67862B80CDC700BECAA7 /* CustomButton.swift */; };
+		911B678B2B80D44A00BECAA7 /* MenuViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B678A2B80D44A00BECAA7 /* MenuViewProvider.swift */; };
+		911B678D2B80DC2000BECAA7 /* NavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B678C2B80DC2000BECAA7 /* NavigationButton.swift */; };
+		911B67902B80DCD500BECAA7 /* FunctionalitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B678F2B80DCD500BECAA7 /* FunctionalitiesView.swift */; };
+		911B67922B80DD0100BECAA7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67912B80DD0100BECAA7 /* SettingsView.swift */; };
+		911B67942B80DD0900BECAA7 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67932B80DD0900BECAA7 /* AboutView.swift */; };
+		911B67962B80DD1200BECAA7 /* CheckConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67952B80DD1200BECAA7 /* CheckConnectionView.swift */; };
+		911B67982B8B949600BECAA7 /* RasberryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67972B8B949600BECAA7 /* RasberryClient.swift */; };
+		911B679A2B94B2DC00BECAA7 /* DisablebleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67992B94B2DC00BECAA7 /* DisablebleButton.swift */; };
+		911B679C2B94B48E00BECAA7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B679B2B94B48E00BECAA7 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		911B67702B80CC9000BECAA7 /* LincentaAnPatruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LincentaAnPatruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911B67742B80CC9000BECAA7 /* LincentaAnPatruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LincentaAnPatruUITests.swift; sourceTree = "<group>"; };
 		911B67762B80CC9000BECAA7 /* LincentaAnPatruUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LincentaAnPatruUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		911B67842B80CD6D00BECAA7 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		911B67862B80CDC700BECAA7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		911B678A2B80D44A00BECAA7 /* MenuViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewProvider.swift; sourceTree = "<group>"; };
+		911B678C2B80DC2000BECAA7 /* NavigationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButton.swift; sourceTree = "<group>"; };
+		911B678F2B80DCD500BECAA7 /* FunctionalitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalitiesView.swift; sourceTree = "<group>"; };
+		911B67912B80DD0100BECAA7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		911B67932B80DD0900BECAA7 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		911B67952B80DD1200BECAA7 /* CheckConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckConnectionView.swift; sourceTree = "<group>"; };
+		911B67972B8B949600BECAA7 /* RasberryClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RasberryClient.swift; sourceTree = "<group>"; };
+		911B67992B94B2DC00BECAA7 /* DisablebleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisablebleButton.swift; sourceTree = "<group>"; };
+		911B679B2B94B48E00BECAA7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +116,8 @@
 		911B67582B80CC8E00BECAA7 /* LincentaAnPatru */ = {
 			isa = PBXGroup;
 			children = (
+				911B67892B80D43500BECAA7 /* Model */,
+				911B67832B80CD2D00BECAA7 /* View */,
 				911B67592B80CC8E00BECAA7 /* LincentaAnPatruApp.swift */,
 				911B675B2B80CC8E00BECAA7 /* ContentView.swift */,
 				911B675D2B80CC9000BECAA7 /* Assets.xcassets */,
@@ -125,6 +149,39 @@
 				911B67762B80CC9000BECAA7 /* LincentaAnPatruUITestsLaunchTests.swift */,
 			);
 			path = LincentaAnPatruUITests;
+			sourceTree = "<group>";
+		};
+		911B67832B80CD2D00BECAA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				911B678E2B80DCC300BECAA7 /* MenuViews */,
+				911B67862B80CDC700BECAA7 /* CustomButton.swift */,
+				911B678C2B80DC2000BECAA7 /* NavigationButton.swift */,
+				911B67992B94B2DC00BECAA7 /* DisablebleButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		911B67892B80D43500BECAA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				911B678A2B80D44A00BECAA7 /* MenuViewProvider.swift */,
+				911B67972B8B949600BECAA7 /* RasberryClient.swift */,
+				911B679B2B94B48E00BECAA7 /* Theme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		911B678E2B80DCC300BECAA7 /* MenuViews */ = {
+			isa = PBXGroup;
+			children = (
+				911B67842B80CD6D00BECAA7 /* MainMenu.swift */,
+				911B678F2B80DCD500BECAA7 /* FunctionalitiesView.swift */,
+				911B67912B80DD0100BECAA7 /* SettingsView.swift */,
+				911B67932B80DD0900BECAA7 /* AboutView.swift */,
+				911B67952B80DD1200BECAA7 /* CheckConnectionView.swift */,
+			);
+			path = MenuViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +314,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911B679A2B94B2DC00BECAA7 /* DisablebleButton.swift in Sources */,
+				911B67872B80CDC700BECAA7 /* CustomButton.swift in Sources */,
+				911B67922B80DD0100BECAA7 /* SettingsView.swift in Sources */,
+				911B67852B80CD6D00BECAA7 /* MainMenu.swift in Sources */,
+				911B679C2B94B48E00BECAA7 /* Theme.swift in Sources */,
+				911B67962B80DD1200BECAA7 /* CheckConnectionView.swift in Sources */,
 				911B675C2B80CC8E00BECAA7 /* ContentView.swift in Sources */,
+				911B67942B80DD0900BECAA7 /* AboutView.swift in Sources */,
+				911B67982B8B949600BECAA7 /* RasberryClient.swift in Sources */,
+				911B678B2B80D44A00BECAA7 /* MenuViewProvider.swift in Sources */,
 				911B675A2B80CC8E00BECAA7 /* LincentaAnPatruApp.swift in Sources */,
+				911B678D2B80DC2000BECAA7 /* NavigationButton.swift in Sources */,
+				911B67902B80DCD500BECAA7 /* FunctionalitiesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
