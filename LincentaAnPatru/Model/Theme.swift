@@ -30,11 +30,11 @@ struct DarkTheme: Theme {
     
     var enabledButtonColor: Color = .blue
     
-    var disabledButtonColor: Color = .orange
+    var disabledButtonColor: Color = .red
     
     var backgroundColor: Color = .black
 }
 
 class ThemeProvider: ObservableObject {
-    var theme = DarkTheme()
+    var theme = LightTheme()
 }

@@ -1,0 +1,6 @@
+framework module Pods_LincentaAnPatruTests {
+  umbrella header "Pods-LincentaAnPatruTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

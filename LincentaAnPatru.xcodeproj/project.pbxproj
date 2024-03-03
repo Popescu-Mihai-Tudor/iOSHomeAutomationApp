@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26E98FDC5C6CACD2DCF6B7A4 /* Pods_LincentaAnPatru_LincentaAnPatruUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B015B22555BB1EBEFDCEFA3 /* Pods_LincentaAnPatru_LincentaAnPatruUITests.framework */; };
 		911B675A2B80CC8E00BECAA7 /* LincentaAnPatruApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67592B80CC8E00BECAA7 /* LincentaAnPatruApp.swift */; };
 		911B675C2B80CC8E00BECAA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B675B2B80CC8E00BECAA7 /* ContentView.swift */; };
 		911B675E2B80CC9000BECAA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911B675D2B80CC9000BECAA7 /* Assets.xcassets */; };
@@ -25,6 +26,13 @@
 		911B67982B8B949600BECAA7 /* RasberryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67972B8B949600BECAA7 /* RasberryClient.swift */; };
 		911B679A2B94B2DC00BECAA7 /* DisablebleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B67992B94B2DC00BECAA7 /* DisablebleButton.swift */; };
 		911B679C2B94B48E00BECAA7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B679B2B94B48E00BECAA7 /* Theme.swift */; };
+		91BA07B42BA74CD1005BFA2F /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA07B32BA74CD1005BFA2F /* AuthenticationService.swift */; };
+		91BA07B62BA74E8F005BFA2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91BA07B52BA74E8F005BFA2F /* GoogleService-Info.plist */; };
+		91BA07B72BA74E8F005BFA2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91BA07B52BA74E8F005BFA2F /* GoogleService-Info.plist */; };
+		91BA07B82BA74E8F005BFA2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91BA07B52BA74E8F005BFA2F /* GoogleService-Info.plist */; };
+		91BA07BA2BA74F88005BFA2F /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA07B92BA74F88005BFA2F /* LoginPage.swift */; };
+		9DDF03FA16E2CE6BEA5CA6E5 /* Pods_LincentaAnPatru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26945BE22A6F316D0619E321 /* Pods_LincentaAnPatru.framework */; };
+		FF9EFCE2BB851873DAED9B53 /* Pods_LincentaAnPatruTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C51BAE4FEA96FE8B5A7378 /* Pods_LincentaAnPatruTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26945BE22A6F316D0619E321 /* Pods_LincentaAnPatru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LincentaAnPatru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		422484D86A3CBE7AD8BF1FAA /* Pods-LincentaAnPatru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LincentaAnPatru.release.xcconfig"; path = "Target Support Files/Pods-LincentaAnPatru/Pods-LincentaAnPatru.release.xcconfig"; sourceTree = "<group>"; };
+		46A8F5F0A194DDD3C9446613 /* Pods-LincentaAnPatruTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LincentaAnPatruTests.release.xcconfig"; path = "Target Support Files/Pods-LincentaAnPatruTests/Pods-LincentaAnPatruTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B015B22555BB1EBEFDCEFA3 /* Pods_LincentaAnPatru_LincentaAnPatruUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LincentaAnPatru_LincentaAnPatruUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A901C0E27842B45742294D3 /* Pods-LincentaAnPatru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LincentaAnPatru.debug.xcconfig"; path = "Target Support Files/Pods-LincentaAnPatru/Pods-LincentaAnPatru.debug.xcconfig"; sourceTree = "<group>"; };
+		6BF0EAE9A198FCC49EE04ECA /* Pods-LincentaAnPatruTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LincentaAnPatruTests.debug.xcconfig"; path = "Target Support Files/Pods-LincentaAnPatruTests/Pods-LincentaAnPatruTests.debug.xcconfig"; sourceTree = "<group>"; };
 		911B67562B80CC8E00BECAA7 /* LincentaAnPatru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LincentaAnPatru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911B67592B80CC8E00BECAA7 /* LincentaAnPatruApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LincentaAnPatruApp.swift; sourceTree = "<group>"; };
 		911B675B2B80CC8E00BECAA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +80,12 @@
 		911B67972B8B949600BECAA7 /* RasberryClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RasberryClient.swift; sourceTree = "<group>"; };
 		911B67992B94B2DC00BECAA7 /* DisablebleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisablebleButton.swift; sourceTree = "<group>"; };
 		911B679B2B94B48E00BECAA7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		91BA07B32BA74CD1005BFA2F /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		91BA07B52BA74E8F005BFA2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91BA07B92BA74F88005BFA2F /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		BE0A4FCF462CD8BDE4F02665 /* Pods-LincentaAnPatru-LincentaAnPatruUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LincentaAnPatru-LincentaAnPatruUITests.release.xcconfig"; path = "Target Support Files/Pods-LincentaAnPatru-LincentaAnPatruUITests/Pods-LincentaAnPatru-LincentaAnPatruUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0C51BAE4FEA96FE8B5A7378 /* Pods_LincentaAnPatruTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LincentaAnPatruTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7AE2D92FC4FD5C3292B859 /* Pods-LincentaAnPatru-LincentaAnPatruUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LincentaAnPatru-LincentaAnPatruUITests.debug.xcconfig"; path = "Target Support Files/Pods-LincentaAnPatru-LincentaAnPatruUITests/Pods-LincentaAnPatru-LincentaAnPatruUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DDF03FA16E2CE6BEA5CA6E5 /* Pods_LincentaAnPatru.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9EFCE2BB851873DAED9B53 /* Pods_LincentaAnPatruTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,12 +109,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E98FDC5C6CACD2DCF6B7A4 /* Pods_LincentaAnPatru_LincentaAnPatruUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FDEC901FBC94D1155879BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26945BE22A6F316D0619E321 /* Pods_LincentaAnPatru.framework */,
+				4B015B22555BB1EBEFDCEFA3 /* Pods_LincentaAnPatru_LincentaAnPatruUITests.framework */,
+				C0C51BAE4FEA96FE8B5A7378 /* Pods_LincentaAnPatruTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		911B674D2B80CC8E00BECAA7 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +133,8 @@
 				911B67692B80CC9000BECAA7 /* LincentaAnPatruTests */,
 				911B67732B80CC9000BECAA7 /* LincentaAnPatruUITests */,
 				911B67572B80CC8E00BECAA7 /* Products */,
+				C2B048BBBECA64E0B69A793C /* Pods */,
+				1FDEC901FBC94D1155879BB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +151,7 @@
 		911B67582B80CC8E00BECAA7 /* LincentaAnPatru */ = {
 			isa = PBXGroup;
 			children = (
+				91BA07B52BA74E8F005BFA2F /* GoogleService-Info.plist */,
 				911B67892B80D43500BECAA7 /* Model */,
 				911B67832B80CD2D00BECAA7 /* View */,
 				911B67592B80CC8E00BECAA7 /* LincentaAnPatruApp.swift */,
@@ -158,6 +194,7 @@
 				911B67862B80CDC700BECAA7 /* CustomButton.swift */,
 				911B678C2B80DC2000BECAA7 /* NavigationButton.swift */,
 				911B67992B94B2DC00BECAA7 /* DisablebleButton.swift */,
+				91BA07B92BA74F88005BFA2F /* LoginPage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +205,7 @@
 				911B678A2B80D44A00BECAA7 /* MenuViewProvider.swift */,
 				911B67972B8B949600BECAA7 /* RasberryClient.swift */,
 				911B679B2B94B48E00BECAA7 /* Theme.swift */,
+				91BA07B32BA74CD1005BFA2F /* AuthenticationService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +222,19 @@
 			path = MenuViews;
 			sourceTree = "<group>";
 		};
+		C2B048BBBECA64E0B69A793C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A901C0E27842B45742294D3 /* Pods-LincentaAnPatru.debug.xcconfig */,
+				422484D86A3CBE7AD8BF1FAA /* Pods-LincentaAnPatru.release.xcconfig */,
+				DF7AE2D92FC4FD5C3292B859 /* Pods-LincentaAnPatru-LincentaAnPatruUITests.debug.xcconfig */,
+				BE0A4FCF462CD8BDE4F02665 /* Pods-LincentaAnPatru-LincentaAnPatruUITests.release.xcconfig */,
+				6BF0EAE9A198FCC49EE04ECA /* Pods-LincentaAnPatruTests.debug.xcconfig */,
+				46A8F5F0A194DDD3C9446613 /* Pods-LincentaAnPatruTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 911B677A2B80CC9000BECAA7 /* Build configuration list for PBXNativeTarget "LincentaAnPatru" */;
 			buildPhases = (
+				5B37B33A0DB778B2DF282A7B /* [CP] Check Pods Manifest.lock */,
 				911B67522B80CC8E00BECAA7 /* Sources */,
 				911B67532B80CC8E00BECAA7 /* Frameworks */,
 				911B67542B80CC8E00BECAA7 /* Resources */,
+				3996031E53F354945789ECA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 911B677D2B80CC9000BECAA7 /* Build configuration list for PBXNativeTarget "LincentaAnPatruTests" */;
 			buildPhases = (
+				7957A16D990B474E10655B88 /* [CP] Check Pods Manifest.lock */,
 				911B67622B80CC9000BECAA7 /* Sources */,
 				911B67632B80CC9000BECAA7 /* Frameworks */,
 				911B67642B80CC9000BECAA7 /* Resources */,
@@ -226,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 911B67802B80CC9000BECAA7 /* Build configuration list for PBXNativeTarget "LincentaAnPatruUITests" */;
 			buildPhases = (
+				A2C1E14DC23C0C1E2AC089B7 /* [CP] Check Pods Manifest.lock */,
 				911B676C2B80CC9000BECAA7 /* Sources */,
 				911B676D2B80CC9000BECAA7 /* Frameworks */,
 				911B676E2B80CC9000BECAA7 /* Resources */,
+				D3D79E0A22352FA7DD4A8D2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,6 +346,7 @@
 			files = (
 				911B67612B80CC9000BECAA7 /* Preview Assets.xcassets in Resources */,
 				911B675E2B80CC9000BECAA7 /* Assets.xcassets in Resources */,
+				91BA07B62BA74E8F005BFA2F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91BA07B72BA74E8F005BFA2F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +362,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91BA07B82BA74E8F005BFA2F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3996031E53F354945789ECA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LincentaAnPatru/Pods-LincentaAnPatru-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LincentaAnPatru/Pods-LincentaAnPatru-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LincentaAnPatru/Pods-LincentaAnPatru-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B37B33A0DB778B2DF282A7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LincentaAnPatru-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7957A16D990B474E10655B88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LincentaAnPatruTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C1E14DC23C0C1E2AC089B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LincentaAnPatru-LincentaAnPatruUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D79E0A22352FA7DD4A8D2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LincentaAnPatru-LincentaAnPatruUITests/Pods-LincentaAnPatru-LincentaAnPatruUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LincentaAnPatru-LincentaAnPatruUITests/Pods-LincentaAnPatru-LincentaAnPatruUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LincentaAnPatru-LincentaAnPatruUITests/Pods-LincentaAnPatru-LincentaAnPatruUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		911B67522B80CC8E00BECAA7 /* Sources */ = {
@@ -327,6 +489,8 @@
 				911B675A2B80CC8E00BECAA7 /* LincentaAnPatruApp.swift in Sources */,
 				911B678D2B80DC2000BECAA7 /* NavigationButton.swift in Sources */,
 				911B67902B80DCD500BECAA7 /* FunctionalitiesView.swift in Sources */,
+				91BA07BA2BA74F88005BFA2F /* LoginPage.swift in Sources */,
+				91BA07B42BA74CD1005BFA2F /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +564,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -463,7 +627,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -484,6 +648,7 @@
 		};
 		911B677B2B80CC9000BECAA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A901C0E27842B45742294D3 /* Pods-LincentaAnPatru.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -513,6 +678,7 @@
 		};
 		911B677C2B80CC9000BECAA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422484D86A3CBE7AD8BF1FAA /* Pods-LincentaAnPatru.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -542,6 +708,7 @@
 		};
 		911B677E2B80CC9000BECAA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF0EAE9A198FCC49EE04ECA /* Pods-LincentaAnPatruTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -562,6 +729,7 @@
 		};
 		911B677F2B80CC9000BECAA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A8F5F0A194DDD3C9446613 /* Pods-LincentaAnPatruTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,6 +750,7 @@
 		};
 		911B67812B80CC9000BECAA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7AE2D92FC4FD5C3292B859 /* Pods-LincentaAnPatru-LincentaAnPatruUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -600,6 +769,7 @@
 		};
 		911B67822B80CC9000BECAA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0A4FCF462CD8BDE4F02665 /* Pods-LincentaAnPatru-LincentaAnPatruUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
